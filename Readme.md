@@ -4,7 +4,7 @@ The App will use the Tenant_config.json file fo the configuration, by editing th
 
 The Topology in Tenant_config.json is as follows (we simulated it in ExoGeni)
 
-[![TOpology](https://github.com/aeklasp/Layer-Data-Center-VxLAN-Service/blob/master/Topology in Tenant_config.png )]
+![Topology](https://github.com/aeklasp/Layer-Data-Center-VxLAN-Service/blob/master/TopologyinTenant_config.png)
 
 
 Note that running the app requires RYU SDN framework being installed already in the machine running the controller app, To install RYU execute the following commands
