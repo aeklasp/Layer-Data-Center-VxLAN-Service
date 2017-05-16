@@ -1,6 +1,11 @@
-To run the controller use command " ryu-manager VcLAN_App.py " at the controller.
+To run the controller App, use command " ryu-manager VcLAN_App.py " at the controller.
 
 The App will use the Tenant_config.json file fo the configuration, by editing the file, we can create different Data Center topologies. A sample config file for adding a tenant (with VNI 104)is given as Tenant_addition.json, to use it, copy its contents to Tenant_config.json or change the filename that is given inside the Vxlan_App.py  
+
+The Topology in Tenant_config.json is as follows (we simulated it in ExoGeni)
+
+[![TOpology](https://github.com/aeklasp/Layer-Data-Center-VxLAN-Service/blob/master/Topology in Tenant_config.png )]
+
 
 Note that running the app requires RYU SDN framework being installed already in the machine running the controller app, To install RYU execute the following commands
 
